@@ -14,6 +14,11 @@ struct Repo {
     private: bool,
     owner: Owner,
     homepage: Option<String>,
+    stargazers_count: u64,
+    forks_count: u64,
+    open_issues_count: u64,
+    created_at: String,
+    updated_at: String,
 }
 /// Represents GitHub repository license information.
 #[derive(Debug, Serialize, Deserialize)]
