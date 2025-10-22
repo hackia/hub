@@ -1,0 +1,9 @@
+{% extends "layout" %}
+
+{% block content %}
+<div id="search-container">
+    <form action="/search" method="post" id="search-form">
+        <input type="text" class="search-input" placeholder="Search..." autofocus="autofocus" />
+    </form>
+</div>
+{% endblock content %}

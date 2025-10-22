@@ -1,0 +1,15 @@
+<!doctype html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<body class="dark:bg-black dark:text-white bg-gray-100 text-black">
+    <main class="">
+        {% block content %}{% endblock content %}
+    </main>
+</body>
+
+</html>
