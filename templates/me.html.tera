@@ -62,7 +62,7 @@
                                     {{ repo.created_at | date(format="%B %d %Y") }}</span>
                                 <span
                                     class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-pink-50 text-pink-700 dark:bg-pink-700 dark:text-white">
-                                    {{ repo.updated_at | date(format="%B %d %Y") }}</span>
+                                    {{ repo.updated_at | date(format="%B %d %Y %H:%M:%S") }}</span>
                             </div>
 
                             <!-- Add this after the description paragraph and before the bottom div with badges -->
